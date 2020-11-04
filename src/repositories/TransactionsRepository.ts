@@ -22,7 +22,7 @@ class TransactionsRepository {
   }
 
   public create(): Transaction {
-    // TODO
+    const transaction = new Transaction({ title, value, type });
   }
 }
 
